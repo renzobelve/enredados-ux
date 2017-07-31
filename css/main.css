@@ -49,7 +49,7 @@ Fin Estilos comunes
 .boton {
   background-color: #C42626;
   width: 100%;
-  margin-top: 1em;
+  margin-top: 0.5em;
   padding: 0.5em;
   border-radius: 40px 40px 40px 40px;
   color: white;
@@ -58,11 +58,14 @@ Fin Estilos comunes
 
   font-family: "FrontPage";
   font-size: 14pt;
+
+  transition: 0.9s;
 }
 
 .boton:hover {
   background-color: #4C0E0E;
   box-shadow: 4px 4px 0px #C42626;
+  transition: 0.9s;
 }
 
 .form-group-botones {
@@ -73,3 +76,46 @@ Fin Estilos comunes
 /*
   Fin boton
 */
+
+/*
+  Inicio Registro
+*/
+
+.registro input{
+  border-radius: 40px 40px 40px 40px;
+  margin-top: 5px;
+  font-size: 12pt;
+  font-family: "FrontPage";
+  text-align: center;
+  background-color: rgba(255,255,255, 0.6);
+  transition: 0.9s;
+  color: bold;
+
+}
+.registro input:focus{
+  background-color: rgba(255,255,255, 0.4);
+  transition: 0.9s;
+  border-color: #4C0E0E;
+  color: #4C0E0E;
+}
+textarea{
+  color: pink;
+}
+
+/*
+  Fin Registro
+*/
+
+
+.title-box{
+  color: white;
+  background-color: #C42626;
+  text-align: center;
+  padding: 0.5em;
+  position: absolute;
+  top: -30px;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 9pt;
+  border: 2px solid;
+  border-color: #4C0E0E;
+}
