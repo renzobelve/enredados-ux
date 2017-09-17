@@ -106,7 +106,16 @@ textarea{
   Fin Registro
 */
 
+/*
+  Inicio Ingresar
+*/
+.botones-ingresar{
+  padding-top: 3em;
+}
 
+/*
+  Fin Ingresar
+*/
 .title-box{
   color: white;
   background-color: #C42626;
@@ -118,4 +127,10 @@ textarea{
   font-size: 9pt;
   border: 2px solid;
   border-color: #4C0E0E;
+}
+
+
+#container-oscuro{
+  background-color:rgba(0, 0, 0, 0.6);  
+  height: 100vh;
 }
